@@ -1,10 +1,4 @@
-/*
-  Simple Grid
-  Learn More - http://dallasbass.com/simple-grid-a-lightweight-responsive-css-grid/
-  Project Page - http://thisisdallas.github.com/Simple-Grid/
-  Author - Dallas Bass
-  Site - dallasbass.com
-*/
+/* veleve-grid | MIT license | (c) 2014 www.veleve.com */
 
 *, *:after, *:before {
 	-webkit-box-sizing: border-box;
@@ -50,8 +44,6 @@ body {
 .push-right {
 	float: right;
 }
-
-/* Content Columns */
 
 .col-1-1 {
 	width: 100%;
@@ -104,8 +96,6 @@ body {
 	width: 8.33%
 }
 
-/* Layout Columns */
-
 .col-11-12 {
 	width: 91.66%
 }
@@ -128,7 +118,6 @@ body {
 
 @media handheld, only screen and (max-width: 767px) {
 
-	
 	.grid {
 		width: 100%;
 		min-width: 0;
@@ -137,15 +126,13 @@ body {
 		padding-left: 0px;
 		padding-right: 0px;
 	}
-	
+
 	[class*='col-'] {
 		width: auto;
 		float: none;
-		margin-left: 0px;
-		margin-right: 0px;
-		margin-top: 10px;
-		margin-bottom: 10px;
+		margin: 10px 0px;
 		padding-left: 20px;
 		padding-right: 20px;
 	}
+
 }
